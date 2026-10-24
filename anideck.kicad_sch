@@ -1531,6 +1531,96 @@
 		)
 	)
 	(symbol
+		(lib_id "SK6812MINI-E:SK6812MINI-E")
+		(at 78.74 115.57 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10f0d47b-7cf3-4782-9e78-3693c16db70a")
+		(property "Reference" "D4"
+			(at 104.14 109.1498 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 104.14 111.6899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "SK6812MINI-E - 3.2x2.8x1.78mm"
+			(at 80.01 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
+			(at 81.28 125.095 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 78.74 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c5287f6c-c4bb-4c78-bc40-f7582145951b")
+		)
+		(pin "4"
+			(uuid "f7fb01e2-e2f0-48ec-9440-2a1720a73ae5")
+		)
+		(pin "3"
+			(uuid "d67a27b4-8930-4558-92a4-f49fc470bed0")
+		)
+		(pin "2"
+			(uuid "8c7e9cc7-192b-40d2-9e1c-b08132898d8d")
+		)
+		(instances
+			(project "anideck"
+				(path "/a157a8af-3bd4-4465-a23c-569836773cbf"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 209.55 123.19 0)
 		(unit 1)
@@ -1808,7 +1898,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Socket")
-		(at 148.59 68.58 0)
+		(at 120.65 60.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1819,7 +1909,7 @@
 		(fields_autoplaced yes)
 		(uuid "72effe13-b9fe-4f8a-bddb-fe78f1689355")
 		(property "Reference" "J1"
-			(at 149.86 68.5799 0)
+			(at 121.92 60.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1830,7 +1920,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04_Socket"
-			(at 149.86 71.1199 0)
+			(at 121.92 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1841,7 +1931,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 148.59 68.58 0)
+			(at 120.65 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1852,7 +1942,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 68.58 0)
+			(at 120.65 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1863,7 +1953,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 148.59 68.58 0)
+			(at 120.65 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1976,7 +2066,7 @@
 	)
 	(symbol
 		(lib_id "Device:RotaryEncoder_Switch")
-		(at 184.15 120.65 0)
+		(at 184.15 133.35 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1987,7 +2077,7 @@
 		(fields_autoplaced yes)
 		(uuid "a4ce1633-3b49-4712-b071-788e8027ffa1")
 		(property "Reference" "SW6"
-			(at 184.15 110.49 0)
+			(at 184.15 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1997,7 +2087,7 @@
 			)
 		)
 		(property "Value" "RotaryEncoder_Switch"
-			(at 184.15 113.03 0)
+			(at 184.15 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2007,7 +2097,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 180.34 116.586 0)
+			(at 180.34 129.286 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2018,7 +2108,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.15 114.046 0)
+			(at 184.15 126.746 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2029,7 +2119,7 @@
 			)
 		)
 		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch"
-			(at 184.15 120.65 0)
+			(at 184.15 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2065,7 +2155,7 @@
 	)
 	(symbol
 		(lib_id "SK6812MINI-E:SK6812MINI-E")
-		(at 106.68 69.85 0)
+		(at 78.74 62.23 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2076,7 +2166,7 @@
 		(fields_autoplaced yes)
 		(uuid "a561414d-d00c-42ac-aca9-c1fac0464a4f")
 		(property "Reference" "D1"
-			(at 132.08 63.4298 0)
+			(at 104.14 55.8098 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2086,7 +2176,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 132.08 65.9699 0)
+			(at 104.14 58.3499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2098,7 +2188,7 @@
 			)
 		)
 		(property "Footprint" "SK6812MINI-E - 3.2x2.8x1.78mm"
-			(at 107.95 77.47 0)
+			(at 80.01 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2110,7 +2200,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
-			(at 109.22 79.375 0)
+			(at 81.28 71.755 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2122,7 +2212,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 106.68 69.85 0)
+			(at 78.74 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2148,6 +2238,186 @@
 			(project "anideck"
 				(path "/a157a8af-3bd4-4465-a23c-569836773cbf"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SK6812MINI-E:SK6812MINI-E")
+		(at 78.74 97.79 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a8f3bc75-7499-4030-96c2-3f4d2630ba50")
+		(property "Reference" "D2"
+			(at 104.14 91.3698 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 104.14 93.9099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "SK6812MINI-E - 3.2x2.8x1.78mm"
+			(at 80.01 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
+			(at 81.28 107.315 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 78.74 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "cc9d3a66-7bb0-4106-9972-80ae7d70c334")
+		)
+		(pin "4"
+			(uuid "77061790-ca0e-483d-b68f-6aa0dfa75ab3")
+		)
+		(pin "3"
+			(uuid "8992f157-9dea-4d94-9304-53c6c275e04f")
+		)
+		(pin "1"
+			(uuid "da19871f-e566-4f57-8a9b-f96e1abfb82c")
+		)
+		(instances
+			(project "anideck"
+				(path "/a157a8af-3bd4-4465-a23c-569836773cbf"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SK6812MINI-E:SK6812MINI-E")
+		(at 78.74 133.35 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "add759cd-2dd6-4698-99b7-d0fa1cd9247b")
+		(property "Reference" "D5"
+			(at 104.14 126.9298 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 104.14 129.4699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "SK6812MINI-E - 3.2x2.8x1.78mm"
+			(at 80.01 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
+			(at 81.28 142.875 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 78.74 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "58c64433-d911-49b1-b939-f2b0e717a8e4")
+		)
+		(pin "1"
+			(uuid "41dfc1b3-21f3-4a0b-8ae9-5c2b314e2979")
+		)
+		(pin "2"
+			(uuid "daa9011c-affb-451a-8bb9-eed8dc6745ab")
+		)
+		(pin "3"
+			(uuid "b139e6ef-dc78-4684-8c4a-46aa5dd0b9cf")
+		)
+		(instances
+			(project "anideck"
+				(path "/a157a8af-3bd4-4465-a23c-569836773cbf"
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -2235,7 +2505,7 @@
 	)
 	(symbol
 		(lib_id "SK6812MINI-E:SK6812MINI-E")
-		(at 106.68 87.63 0)
+		(at 78.74 80.01 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2246,7 +2516,7 @@
 		(fields_autoplaced yes)
 		(uuid "f0daffa5-72e8-42e7-a12e-3a54c0bd437c")
 		(property "Reference" "D3"
-			(at 132.08 81.2098 0)
+			(at 104.14 73.5898 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2256,7 +2526,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 132.08 83.7499 0)
+			(at 104.14 76.1299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2268,7 +2538,7 @@
 			)
 		)
 		(property "Footprint" "SK6812MINI-E - 3.2x2.8x1.78mm"
-			(at 107.95 95.25 0)
+			(at 80.01 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2280,7 +2550,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
-			(at 109.22 97.155 0)
+			(at 81.28 89.535 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2292,7 +2562,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 106.68 87.63 0)
+			(at 78.74 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
