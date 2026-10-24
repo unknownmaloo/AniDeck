@@ -1664,26 +1664,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(wire
-		(pts
-			(xy 208.28 93.98) (xy 200.66 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15056f8c-6744-4293-9cc9-dd8b7871ccf5")
-	)
-	(wire
-		(pts
-			(xy 200.66 91.44) (xy 200.66 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cdc586d5-d718-42e5-92e4-9f38db599013")
-	)
 	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 213.36 93.98 0)
@@ -3203,7 +3183,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 228.6 38.1 0)
+		(at 228.6 50.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3214,7 +3194,7 @@
 		(fields_autoplaced yes)
 		(uuid "f0164db2-0319-4921-a8ac-7c4b10df089e")
 		(property "Reference" "H2"
-			(at 231.14 36.8299 0)
+			(at 231.14 49.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3225,7 +3205,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 231.14 39.3699 0)
+			(at 231.14 52.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3236,7 +3216,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 228.6 38.1 0)
+			(at 228.6 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3247,7 +3227,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 228.6 38.1 0)
+			(at 228.6 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3258,7 +3238,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 228.6 38.1 0)
+			(at 228.6 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
