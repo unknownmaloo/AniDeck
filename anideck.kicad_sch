@@ -1670,18 +1670,6 @@
 		(color 0 0 0 0)
 		(uuid "0502762d-e505-49c3-8e3b-91b268dbd76f")
 	)
-	(junction
-		(at 200.66 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4cd7969e-7974-46a3-83fa-2efcd5ec645b")
-	)
-	(junction
-		(at 200.66 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a4330dd0-6f33-4d7a-b7df-05f6e199f0c4")
-	)
 	(wire
 		(pts
 			(xy 208.28 119.38) (xy 200.66 119.38)
@@ -1691,16 +1679,6 @@
 			(type default)
 		)
 		(uuid "275adfd1-3671-4f4e-96f0-02d92bb76652")
-	)
-	(wire
-		(pts
-			(xy 200.66 81.28) (xy 200.66 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36faeadc-f353-425d-a4cf-357851a32b0f")
 	)
 	(wire
 		(pts
@@ -1724,16 +1702,6 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 81.28) (xy 200.66 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad57b851-fc37-4d21-bb0c-b7a8d6bdb09d")
-	)
-	(wire
-		(pts
 			(xy 200.66 68.58) (xy 208.28 68.58)
 		)
 		(stroke
@@ -1751,16 +1719,6 @@
 			(type default)
 		)
 		(uuid "f16049c7-b047-4d93-9309-e303b5e3d10a")
-	)
-	(wire
-		(pts
-			(xy 200.66 68.58) (xy 200.66 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5bd8e71-788d-40f0-b599-f6b256d4a5e2")
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
