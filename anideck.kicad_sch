@@ -1716,6 +1716,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 46.99) (xy 128.27 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0aaea922-46a4-4724-a9fc-5cd47b92620a")
+	)
+	(wire
+		(pts
 			(xy 176.53 133.35) (xy 168.91 133.35)
 		)
 		(stroke
@@ -1733,6 +1743,16 @@
 			(type default)
 		)
 		(uuid "10f5ebce-2913-4abb-86d4-2e9e3e299a7d")
+	)
+	(wire
+		(pts
+			(xy 128.27 100.33) (xy 134.62 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14f73b8f-c32c-42d9-9bb5-ba613e7b6636")
 	)
 	(wire
 		(pts
@@ -1803,6 +1823,16 @@
 			(type default)
 		)
 		(uuid "64c2fbb6-fd5c-4e6d-aef1-12bcafd1353f")
+	)
+	(wire
+		(pts
+			(xy 223.52 119.38) (xy 223.52 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65466013-0fa1-4ada-b3e6-e36e1238fbf8")
 	)
 	(wire
 		(pts
@@ -2016,6 +2046,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 119.38) (xy 223.52 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db880321-433a-4dff-aefe-f6246bb70ea2")
+	)
+	(wire
+		(pts
 			(xy 220.98 93.98) (xy 220.98 49.53)
 		)
 		(stroke
@@ -2053,6 +2093,16 @@
 			(type default)
 		)
 		(uuid "fba03549-664f-4db2-ab14-cf865393c538")
+	)
+	(wire
+		(pts
+			(xy 223.52 46.99) (xy 128.27 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fec17951-74e1-455d-986a-d4c908f515b2")
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
