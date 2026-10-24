@@ -1340,7 +1340,7 @@
 	)
 	(symbol
 		(lib_id "Device:RotaryEncoder_Switch")
-		(at 187.96 134.62 0)
+		(at 184.15 120.65 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1351,7 +1351,7 @@
 		(fields_autoplaced yes)
 		(uuid "a4ce1633-3b49-4712-b071-788e8027ffa1")
 		(property "Reference" "SW6"
-			(at 187.96 124.46 0)
+			(at 184.15 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1361,7 +1361,7 @@
 			)
 		)
 		(property "Value" "RotaryEncoder_Switch"
-			(at 187.96 127 0)
+			(at 184.15 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1371,7 +1371,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 184.15 130.556 0)
+			(at 180.34 116.586 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1382,7 +1382,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 128.016 0)
+			(at 184.15 114.046 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1393,7 +1393,7 @@
 			)
 		)
 		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch"
-			(at 187.96 134.62 0)
+			(at 184.15 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
