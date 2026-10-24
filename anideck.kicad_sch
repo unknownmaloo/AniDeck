@@ -1452,7 +1452,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 209.55 97.79 0)
+		(at 213.36 93.98 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1463,7 +1463,7 @@
 		(fields_autoplaced yes)
 		(uuid "0a414ebb-5307-4435-bd99-578e9150d5f3")
 		(property "Reference" "SW3"
-			(at 209.55 90.17 0)
+			(at 213.36 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1473,7 +1473,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 209.55 92.71 0)
+			(at 213.36 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1483,7 +1483,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 209.55 92.71 0)
+			(at 213.36 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1494,7 +1494,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 92.71 0)
+			(at 213.36 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1505,7 +1505,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 209.55 97.79 0)
+			(at 213.36 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1622,7 +1622,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 209.55 123.19 0)
+		(at 213.36 119.38 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1633,7 +1633,7 @@
 		(fields_autoplaced yes)
 		(uuid "16d072cb-4eec-4d12-bc40-4e4de3496144")
 		(property "Reference" "SW5"
-			(at 209.55 115.57 0)
+			(at 213.36 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1643,7 +1643,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 209.55 118.11 0)
+			(at 213.36 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1653,7 +1653,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 209.55 118.11 0)
+			(at 213.36 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1664,7 +1664,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 118.11 0)
+			(at 213.36 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1675,7 +1675,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 209.55 123.19 0)
+			(at 213.36 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1818,7 +1818,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 209.55 110.49 0)
+		(at 213.36 106.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1829,7 +1829,7 @@
 		(fields_autoplaced yes)
 		(uuid "3af23422-7d03-48e9-a826-2d1569f3c10b")
 		(property "Reference" "SW4"
-			(at 209.55 102.87 0)
+			(at 213.36 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1839,7 +1839,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 209.55 105.41 0)
+			(at 213.36 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1849,7 +1849,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 209.55 105.41 0)
+			(at 213.36 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1860,7 +1860,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 105.41 0)
+			(at 213.36 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1871,7 +1871,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 209.55 110.49 0)
+			(at 213.36 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1898,7 +1898,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Socket")
-		(at 120.65 60.96 0)
+		(at 147.32 60.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1909,7 +1909,7 @@
 		(fields_autoplaced yes)
 		(uuid "72effe13-b9fe-4f8a-bddb-fe78f1689355")
 		(property "Reference" "J1"
-			(at 121.92 60.9599 0)
+			(at 148.59 60.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1920,7 +1920,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04_Socket"
-			(at 121.92 63.4999 0)
+			(at 148.59 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1931,7 +1931,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 60.96 0)
+			(at 147.32 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1942,7 +1942,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 60.96 0)
+			(at 147.32 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1953,7 +1953,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 120.65 60.96 0)
+			(at 147.32 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1986,7 +1986,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 209.55 72.39 0)
+		(at 213.36 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1997,7 +1997,7 @@
 		(fields_autoplaced yes)
 		(uuid "806045f4-d3c5-45e1-bb10-ba3c124b9749")
 		(property "Reference" "SW1"
-			(at 209.55 64.77 0)
+			(at 213.36 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2007,7 +2007,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 209.55 67.31 0)
+			(at 213.36 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2017,7 +2017,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 209.55 67.31 0)
+			(at 213.36 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2028,7 +2028,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 67.31 0)
+			(at 213.36 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2039,7 +2039,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 209.55 72.39 0)
+			(at 213.36 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2425,7 +2425,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 209.55 85.09 0)
+		(at 213.36 81.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2436,7 +2436,7 @@
 		(fields_autoplaced yes)
 		(uuid "ef8b69cc-59ff-4f2b-8f06-45c9f70630d9")
 		(property "Reference" "SW2"
-			(at 209.55 77.47 0)
+			(at 213.36 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2446,7 +2446,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 209.55 80.01 0)
+			(at 213.36 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2456,7 +2456,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 209.55 80.01 0)
+			(at 213.36 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2467,7 +2467,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 80.01 0)
+			(at 213.36 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2478,7 +2478,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 209.55 85.09 0)
+			(at 213.36 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
