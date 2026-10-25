@@ -3647,7 +3647,7 @@
 	)
 	(symbol
 		(lib_id "SK6812MINI-E:SK6812MINI-E")
-		(at 38.1 83.82 0)
+		(at 78.74 80.01 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3658,7 +3658,7 @@
 		(fields_autoplaced yes)
 		(uuid "a8f3bc75-7499-4030-96c2-3f4d2630ba50")
 		(property "Reference" "D2"
-			(at 63.5 77.3998 0)
+			(at 104.14 73.5898 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3668,7 +3668,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 63.5 79.9399 0)
+			(at 104.14 76.1299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3680,7 +3680,7 @@
 			)
 		)
 		(property "Footprint" "SK6812MINI-E - 3.2x2.8x1.78mm"
-			(at 39.37 91.44 0)
+			(at 80.01 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3692,7 +3692,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
-			(at 40.64 93.345 0)
+			(at 81.28 89.535 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3704,7 +3704,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 38.1 83.82 0)
+			(at 78.74 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
