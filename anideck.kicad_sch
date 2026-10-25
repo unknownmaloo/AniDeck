@@ -1683,12 +1683,6 @@
 		(uuid "1a559bbf-b502-4ec2-b183-03c3cb57b762")
 	)
 	(junction
-		(at 116.84 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "54ac6524-7c93-41bf-ace0-29dcb8d6133a")
-	)
-	(junction
 		(at 200.66 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1853,16 +1847,6 @@
 			(type default)
 		)
 		(uuid "288a8980-077d-47a1-bf0f-05e80b2f52c7")
-	)
-	(wire
-		(pts
-			(xy 78.74 105.41) (xy 116.84 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29383209-e2dd-4fc6-bc6b-8e3eca6db9d7")
 	)
 	(wire
 		(pts
@@ -2103,16 +2087,6 @@
 			(type default)
 		)
 		(uuid "8175cdd1-d968-46ac-bbcb-16a73ce80bce")
-	)
-	(wire
-		(pts
-			(xy 116.84 105.41) (xy 116.84 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81ce76b5-40b6-4e73-ba61-eea8e95e0bf0")
 	)
 	(wire
 		(pts
@@ -2636,7 +2610,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 92.71) (xy 116.84 105.41)
+			(xy 116.84 92.71) (xy 116.84 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3673,7 +3647,7 @@
 	)
 	(symbol
 		(lib_id "SK6812MINI-E:SK6812MINI-E")
-		(at 78.74 97.79 0)
+		(at 38.1 83.82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3684,7 +3658,7 @@
 		(fields_autoplaced yes)
 		(uuid "a8f3bc75-7499-4030-96c2-3f4d2630ba50")
 		(property "Reference" "D2"
-			(at 104.14 91.3698 0)
+			(at 63.5 77.3998 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3694,7 +3668,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 104.14 93.9099 0)
+			(at 63.5 79.9399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3706,7 +3680,7 @@
 			)
 		)
 		(property "Footprint" "SK6812MINI-E - 3.2x2.8x1.78mm"
-			(at 80.01 105.41 0)
+			(at 39.37 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3718,7 +3692,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
-			(at 81.28 107.315 0)
+			(at 40.64 93.345 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3730,7 +3704,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 78.74 97.79 0)
+			(at 38.1 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
