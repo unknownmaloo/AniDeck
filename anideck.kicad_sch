@@ -1683,10 +1683,22 @@
 		(uuid "1a559bbf-b502-4ec2-b183-03c3cb57b762")
 	)
 	(junction
+		(at 116.84 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f5cc862-d749-43c9-a640-4181ece1ee4f")
+	)
+	(junction
 		(at 200.66 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "72820a0d-f913-4777-9438-14e85754ca75")
+	)
+	(junction
+		(at 116.84 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85f4fa4c-68d1-4258-af35-cc8e1b8350cb")
 	)
 	(junction
 		(at 116.84 123.19)
@@ -1718,6 +1730,12 @@
 		(color 0 0 0 0)
 		(uuid "b1a04f7f-ee9d-4fb4-9167-1587efd4f489")
 	)
+	(junction
+		(at 50.8 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed6e784d-7baf-4a01-a693-f56e3f5462b9")
+	)
 	(wire
 		(pts
 			(xy 191.77 135.89) (xy 198.12 135.89)
@@ -1740,6 +1758,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 92.71) (xy 116.84 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0654b1af-936e-4e51-86e8-cbdee86365ac")
+	)
+	(wire
+		(pts
 			(xy 133.35 52.07) (xy 133.35 90.17)
 		)
 		(stroke
@@ -1747,6 +1775,16 @@
 			(type default)
 		)
 		(uuid "0738bb58-4c72-4b40-9a62-25b9202f3366")
+	)
+	(wire
+		(pts
+			(xy 50.8 90.17) (xy 50.8 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08203805-325b-4ab7-9367-6dd562576982")
 	)
 	(wire
 		(pts
@@ -1780,13 +1818,23 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 50.8) (xy 50.8 107.95)
+			(xy 50.8 50.8) (xy 50.8 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "12b1fcfe-9243-4b47-91ec-ff897f74058e")
+	)
+	(wire
+		(pts
+			(xy 116.84 105.41) (xy 116.84 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "139e1a2d-6c40-45b7-94c9-1234e13070d0")
 	)
 	(wire
 		(pts
@@ -1947,6 +1995,16 @@
 			(type default)
 		)
 		(uuid "5926d996-a374-44f2-9f58-bcc0277d27ad")
+	)
+	(wire
+		(pts
+			(xy 78.74 105.41) (xy 116.84 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a4bbb6f-e0fc-445e-b3bb-441e595a2ae1")
 	)
 	(wire
 		(pts
@@ -2160,7 +2218,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 69.85) (xy 116.84 92.71)
+			(xy 116.84 69.85) (xy 116.84 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2227,6 +2285,16 @@
 			(type default)
 		)
 		(uuid "95294cde-dd49-4ac6-a8a0-96a94b7e952d")
+	)
+	(wire
+		(pts
+			(xy 116.84 87.63) (xy 116.84 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95fbae08-bd50-4301-abbd-c82ceb82f353")
 	)
 	(wire
 		(pts
@@ -2440,6 +2508,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 90.17) (xy 78.74 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1f072fc-d950-4f77-b948-917ad0abe78b")
+	)
+	(wire
+		(pts
 			(xy 142.24 63.5) (xy 128.27 63.5)
 		)
 		(stroke
@@ -2540,6 +2618,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 87.63) (xy 116.84 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7b6461a-49bc-4743-906e-8e83c04754c0")
+	)
+	(wire
+		(pts
 			(xy 129.54 97.79) (xy 134.62 97.79)
 		)
 		(stroke
@@ -2607,16 +2695,6 @@
 			(type default)
 		)
 		(uuid "fba03549-664f-4db2-ab14-cf865393c538")
-	)
-	(wire
-		(pts
-			(xy 116.84 92.71) (xy 116.84 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd1a6776-da67-4100-a58a-e07cb9b63878")
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
@@ -4213,7 +4291,7 @@
 	)
 	(symbol
 		(lib_id "SK6812MINI-E:SK6812MINI-E")
-		(at 78.74 99.06 0)
+		(at 78.74 97.79 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4224,7 +4302,7 @@
 		(fields_autoplaced yes)
 		(uuid "f0daffa5-72e8-42e7-a12e-3a54c0bd437c")
 		(property "Reference" "D3"
-			(at 104.14 92.6398 0)
+			(at 104.14 91.3698 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4234,7 +4312,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 104.14 95.1799 0)
+			(at 104.14 93.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4246,7 +4324,7 @@
 			)
 		)
 		(property "Footprint" "SK6812MINI-E - 3.2x2.8x1.78mm"
-			(at 80.01 106.68 0)
+			(at 80.01 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4258,7 +4336,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
-			(at 81.28 108.585 0)
+			(at 81.28 107.315 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4270,7 +4348,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 78.74 99.06 0)
+			(at 78.74 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
