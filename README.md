@@ -39,7 +39,7 @@ They both r designed in KiCAD.
 ![2D View of PCB](assets/pcb.png)
 
 ## Firmware Overview
-- **Framework:** KMK firmware running on CircuitPython 9.x
+- **Framework:** KMK firmware running on CircuitPython.
 - **Keymap:** Custom macros and media controls tailored for anime streaming
 - **Display:** Static text rendering via Adafruit Displayio libraries
 
