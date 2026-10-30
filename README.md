@@ -22,7 +22,20 @@ They both r designed in KiCAD.
 
 ### PCB Layout & 3D Views
 ![3D View of PCB](assets/3D_PCB.png)
+
+
+
+
+
+
 ![3D 2nd View of PCB](assets/3D_PCB2.png)
+
+
+
+
+
+
+
 ![2D View of PCB](assets/pcb.png)
 
 ## Firmware Overview
