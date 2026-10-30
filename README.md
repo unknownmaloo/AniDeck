@@ -21,14 +21,14 @@ They both r designed in KiCAD.
 ![Schematic View](assets/schematic.png)
 
 ### PCB Layout & 3D Views
-![3D View of PCB](assets/3D_PCB.png)
+![3d View of PCB](assets/3d_PCB.png)
 
 
 
 
 
 
-![3D 2nd View of PCB](assets/3D_PCB2.png)
+![3d 2nd View of PCB](assets/3d_PCB2.png)
 
 
 
